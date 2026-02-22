@@ -63,7 +63,7 @@ def play_tone(key):
     # SES ÇAL
     sd.play(signal, fs)
 
-    # GRAFİK GÖSTER (modern stil)
+    # Grafik Göster
     plt.style.use("dark_background")
     fig, ax = plt.subplots(figsize=(9, 4))
     ax.plot(t, signal, color="#00d4ff", linewidth=0.8, alpha=0.9)
